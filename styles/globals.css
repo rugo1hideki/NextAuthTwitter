@@ -14,3 +14,137 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  box-shadow: 0 2px 5px 0 #dfdfdf, 0 8px 40px 0 rgb(10 14 29 / 6%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 40rem;
+  height: auto;
+  margin-top: 2rem;
+}
+.card h2 {
+  position: absolute;
+  left: 20%;
+  top: -220%;
+  font-size: x-large;
+}
+
+.top {
+  position: relative;
+  margin-bottom: -100px;
+}
+
+.mail {
+  font-size: 1.5em;
+  left: 53%;
+  position: inherit;
+  top: -25px;
+}
+
+.text {
+  font-size: 1.5em;
+  left: 0%;
+  position: inherit;
+  top: 50px;
+}
+
+.card p {
+  font-size: large;
+  left: 20%;
+  position: relative;
+  top: -140px;
+}
+form {
+  margin-top: 2rem;
+}
+input,
+textarea {
+  width: 20rem;
+  padding: 1rem;
+  font-size: 1.2em;
+  display: block;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+button {
+  width: 100%;
+  height: auto;
+  font-size: 2.2em;
+  background: #505050;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #292929;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 95%;
+  }
+  input,
+  textarea {
+    width: 95%;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.round {
+  border-radius: 100px;
+  width: 49px;
+  height: 49px;
+  left: 87%;
+  position: absolute;
+}
+
+.log {
+  position: absolute;
+  left: 92%;
+}
+
+.profile {
+  position: absolute;
+  left: 1%;
+}
+.posts {
+  position: absolute;
+  left: 6%;
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 100px;
+}
