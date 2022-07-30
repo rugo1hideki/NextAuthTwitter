@@ -1,6 +1,6 @@
 This is a project on [Next.js](https://nextjs.org/) and [auth0](https://auth0.com/)
 
-##Start
+Start
 
 First, start the development server:
 
